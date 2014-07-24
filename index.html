@@ -1,17 +1,780 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if (IE 9)]><html class="no-js ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en-US"> <!--<![endif]-->
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="1265.19">
-  <style type="text/css">
-    p.p2 {margin: 0.0px 0.0px 12.0px 0.0px; font: 12.0px Times}
-  </style>
+
+<!-- Meta Tags -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>Calvin S. Patmont | Engineer</title>   
+
+<meta name="description" content="Insert Your Site Description" /> 
+
+<!-- Mobile Specifics -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="HandheldFriendly" content="true"/>
+<meta name="MobileOptimized" content="320"/>   
+
+<!-- Mobile Internet Explorer ClearType Technology -->
+<!--[if IEMobile]>  <meta http-equiv="cleartype" content="on">  <![endif]-->
+
+<!-- Bootstrap -->
+<link href="_include/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Main Style -->
+<link href="_include/css/main.css" rel="stylesheet">
+
+<!-- Supersized -->
+<link href="_include/css/supersized.css" rel="stylesheet">
+<link href="_include/css/supersized.shutter.css" rel="stylesheet">
+
+<!-- FancyBox -->
+<link href="_include/css/fancybox/jquery.fancybox.css" rel="stylesheet">
+
+<!-- Font Icons -->
+<link href="_include/css/fonts.css" rel="stylesheet">
+
+<!-- Shortcodes -->
+<link href="_include/css/shortcodes.css" rel="stylesheet">
+
+<!-- Responsive -->
+<link href="_include/css/bootstrap-responsive.min.css" rel="stylesheet">
+<link href="_include/css/responsive.css" rel="stylesheet">
+
+<!-- Supersized -->
+<link href="_include/css/supersized.css" rel="stylesheet">
+<link href="_include/css/supersized.shutter.css" rel="stylesheet">
+
+<!-- Google Font -->
+<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900' rel='stylesheet' type='text/css'>
+
+<!-- Fav Icon -->
+<link rel="shortcut icon" href="favicon.ico">
+
+<link rel="apple-touch-icon" href="#">
+<link rel="apple-touch-icon" sizes="114x114" href="#">
+<link rel="apple-touch-icon" sizes="72x72" href="#">
+<link rel="apple-touch-icon" sizes="144x144" href="#">
+
+<!-- Modernizr -->
+<script src="_include/js/modernizr.js"></script>
+
+<!-- Analytics
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'Insert Your Code']);
+   _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+End Analytics -->
+
+
 </head>
+
+
 <body>
-<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Times"><b>Hello World</b></h1>
-<p class="p2">I'm hosted with GitHub Pages.</p>
+
+<!-- This section is for Splash Screen -->
+<div class="ole">
+<section id="jSplash">
+	<div id="circle"></div>
+</section>
+</div>
+<!-- End of Splash Screen -->
+
+<!-- Homepage Slider -->
+<div id="home-slider">	
+    <div class="overlay"></div>
+
+    <div class="slider-text">
+    	<div id="slidecaption"></div>
+    </div>   
+	
+	<div class="control-nav">
+<!--         <a id="prevslide" class="load-item"><i class="font-icon-arrow-simple-left"></i></a>
+        <a id="nextslide" class="load-item"><i class="font-icon-arrow-simple-right"></i></a> -->
+        <ul id="slide-list"></ul>
+        
+        <a id="nextsection" href="#about"><i class="font-icon-arrow-simple-down"></i></a>
+    </div>
+</div>
+<!-- End Homepage Slider -->
+
+<!-- Header -->
+<header>
+    <div class="sticky-nav">
+    	<a id="mobile-nav" class="menu-nav" href="#menu-nav"></a>
+        
+        <div id="logo">
+        	<a id="goUp" href="#home-slider" title="Brushed | Responsive One Page Template">Brushed Template</a>
+        </div>
+        
+        <nav id="menu">
+        	<ul id="menu-nav">
+            	<li class="current"><a href="#home-slider">Top</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#work">My Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+<!-- 				<li><a href="shortcodes.html" class="external">Shortcodes</a></li>
+ -->            </ul>
+        </nav>
+        
+    </div>
+</header>
+<!-- End Header -->
+
+
+<!-- About Section -->
+<div id="about" class="page">
+<div class="container">
+    <!-- Title Page -->
+    <div class="row">
+        <div class="span12">
+            <div class="title-page">
+                <h2 class="title">About Me</h2>
+<!--                 <h3 class="title-description"> </h3>
+ -->        </div>
+               
+            <!-- Start Profile -->
+           <div class="span4 profile">
+                <div class="image-wrap">
+                    <div class="hover-wrap">
+                        <span class="overlay-img"></span>
+                        <span class="overlay-text-thumb">Designer . Builder . Engineer</span>
+                    </div>
+                    <img src="_include/img/profile/profile-01.jpg" align="middle" alt="Calvin Patmont">
+                </div>
+
+
+                <h3 class="profile-name">Introduction...</h3>
+            </div>
+            <div class="span9">
+                <p class="profile-description">Thanks for visiting.  My name is Calvin Patmont and I will receive a master degree in mechanical engineering this Fall from Boston University.  In addition to coursework, I dedicated much of my time to the reserearch and development of small space weather satellites, where I took on several rolls including program manager.  Prior to entering a career in engineering, I worked in the architecture and construction industry, where I designed structures and watched my designs come to fruition. </p>
+            </div>
+            <!-- End Profile -->
+
+
+<!--             <div align="left">
+ -->            </div>
+
+ <!-- Start Accordion/Toggle Section -->
+        <div class="row">
+            <div class="span9">
+<!--                 <h4 class="spec">Resume</h4>
+ -->                
+                <!-- Start Accordion -->
+                <div class="accordion" id="accordionArea">
+                    <div class="accordion-group">
+                        <div class="accordion-heading accordionize">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionArea" href="#oneArea">
+                                Education
+                                <span class="font-icon-arrow-simple-down"></span>
+                            </a>
+                        </div>
+                        <div id="oneArea" class="accordion-body collapse">
+                            <div class="accordion-inner">
+                            <ul>
+                                <li>
+                                <h3>Boston University, Massachusetts</h3>
+                                <h4>MS in Mechanical Engineering</h4>
+                                <h5>Graduating December 2014</h5>
+                                </li>
+                                <li>                                
+                                <h3>American University of Beirut, Lebanon</h3>
+                                <h4>Visiting Student in Architecture</h4>
+                                <h5>Attended 2010</h5>
+                                </li>
+                                <li>                                                                
+                                <h3>California Polytechnic State University, San Luis Obispo</h3>
+                                <h4>BS in Construction Management</h4>
+                                <h5>Graduated 2007</h5>    
+                                <h6 style="color:#7F8289">London Study Abroad</h6>
+                                </li>
+                            </ul>                            
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-group">
+                        <div class="accordion-heading accordionize">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionArea" href="#twoArea">
+                            Engineering Experience
+                            <span class="font-icon-arrow-simple-down"></span>
+                        </a>
+                        </div>
+                        <div id="twoArea" class="accordion-body collapse">
+                            <div class="accordion-inner">
+
+                            <h3>Center for Space Physics at Boston University</h3>
+                            <h4>Graduate Research Assistant</h4>
+                                <h4>2013 - 2014 NASA Reduced Gravity Campaign - Johnson Space Center</h4>
+                                <blockquote>                                
+                                <h5>Solid-State Hinge and Latching Mechanism - Team Lead</h5>
+                                <ul>
+                                <li> Characterizing a self-deploying, self-guiding, and self-locking solar-panel hinge in thermal-vac and microgravity environments, and FEA modeling.
+                                <li> Designing test plans and fabricating test apparatuses for various environments to measure torque and vibration response using strain sensors and accelerometers.
+                                <li> Expect to publish analysis in September 2014 for use by small-satellite community
+                                </ul>
+                                </blockquote>
+
+                                <h4>2013 - 2014 Air Force Research Laboratory - University Nanosatellite Program </h4>
+                                <blockquote>
+                                <h5>BUSAT (Boston University Student satellite for Applications and Training)</h5>
+                                <h6><i>Project Manager</i></h6>
+                                <ul>
+                                <li> BUSAT is a 27U multi-mission avionics and structural cubesat bus.<br>
+                                <li> Instructed and managed 15 Engineering and Astronomy students with all disciplines of small-satellite development<br>
+                                <li> Drove requirements based design and engineering - where subsystems requirements are traced back to Science Mission requirements<br>
+                                <li> Developed an extensive knowledge base of space satellite subsystems, space physics, and practical engineering problem solving across multiple disciplines - often with little prior knowledge<br>
+                                </ul>
+                                </blockquote>
+
+
+                                <h4> 2013 - 2014 NASA Planetary Astronomy Program - Wallops Flight Center</h4>
+                                <blockquote>
+                                <h5>VeSpR (Venus Spectral Rocket Experiment)</h5>
+                                <h6>Ultra-High Vacuum Lab Tech</h6>
+                                <ul>
+                                <li> Sounding rocket launched in Fall 2013 to measure Venus Deuterium levels
+                                <li> Upgraded two Ultra-High Vacuum chambers (UHV) to achieve 10^-5 torr vacuum levels
+                                <li> Developed controller to run 4-axis instrument stage
+                                <li> Experience with Rotary vane roughing, turbo-molecular and liquid-Helium pumps
+                                </ul>
+                                </blockquote>
+
+                                <h4>2014    Air Force Research Laboratory - University Nanosatellite Program</h4> 
+                                <blockquote>
+                                <h5>ANDESITE (Ad-Hoc Network Demonstration for Extended Satellite-Based Inquiry and Other Team Endeavors)</h5>
+                                <h6>Systems Engineer</h6>
+                                <ul>
+                                <li> Developing a deployable wireless sensor network to temporally and spatially characterize the Birkeland currents at the polar regions
+                                <li> Develop big-picture documents and processes such as: CONOPS, RVM, mission success criteria, testing plans and interface coordination.
+                                </li>
+                                </ul>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                    <div class="accordion-group">
+                        <div class="accordion-heading accordionize">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionArea" href="#threeArea">
+                            Architecture &amp Construction Experience
+                            <span class="font-icon-arrow-simple-down"></span>
+                        </a>
+                        </div>
+                        <div id="threeArea" class="accordion-body collapse">
+                            <div class="accordion-inner">
+                                <h4>Pacific Structures / Build Group Inc. - San Francisco, CA</h4>
+                                <blockquote>
+                                <h5>Structural Concrete Subcontractor and General Contractor</h5>
+                                <h6>Construction Project Engineer</h6>
+                                <ul>
+                                    <li> identified and solved on-site constructability issues with the General Contractor, Architect and Engineers while staying ahead of concrete construction crews
+                                    <li> implemented productivity increases and cost savings by designing and purchasing a more expensive prefabricated formwork off-site, and recouping savings in labor costs and reducing schedule
+                                    <li> prepared material take-offs from plans and developed construction cost estimates
+                                </ul>
+                                </blockquote>
+
+                                <h4>2009 - 2011 Hillside Homes Group Inc. - Walnut Creek, CA </h4>
+                                <blockquote>
+                                <h5>Custom Home Designer and Builder</h5>
+                                <h6><i>Project Architect</i></h6>
+                                <ul>
+                                    <li> developed conceptual ideas into construction documents
+                                    <li> utilized Building Information Modeling (BIM) software to accurately design and orient custom homes on complex hillside lots
+                                    <li> prepared pro-forma and feasibility studies for potential land acquisitions
+                                </ul> 
+                                </blockquote>
+                                
+                                <h4> 2007 - 2009 Signature Properties - San Francisco, CA </h4>
+                                <blockquote>
+                                <h5>Signature Properties San Francisco, CA</h5>
+                                <h6>Construction Project Engineer</h6>
+                                <ul>
+                                    <li> project management tasks for $40-50 million mixed-use developments
+                                    <li> project scheduling and performed subcontractor buy-out
+                                    <li> designed, calculated and built bracing system for temporary elevator, which included engineer's approval of my structural load calculations and modifying on-site structural systems for an alternate use; estimated savings of $50,000 and no project delay
+                                    <li> developed window washing proposal to conform to CalOSHA standards in order to prevent change in structural system and continuing to schedule and budget
+                                </ul>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-group">
+                        <div class="accordion-heading accordionize">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionArea" href="#fourArea">
+                            Technical Skills
+                            <span class="font-icon-arrow-simple-down"></span>
+                        </a>
+                        </div>
+                        <div id="fourArea" class="accordion-body collapse">
+                            <div class="accordion-inner">
+                                <h3>HARDWARE DEVELOPMENT</h4>
+                                <blockquote>
+                                <ul>
+                                    <li> Machining
+                                    <li> Instrument Design and Testing
+                                    <li> Circuit Design and Testing
+                                </ul>
+                                </blockquote>
+
+                                <h3>DESIGN SOFTWARE</h4>
+                                <blockquote>
+                                <ul>
+                                    <li> Solidworks
+                                    <li> Altium
+                                    <li> AutoCAD
+                                    <li> Revit Architecture
+                                </ul>
+                                </blockquote>
+
+                                <h3>PROGRAMING LANGUAGES</h4>
+                                <blockquote>
+                                <ul>
+                                    <li> Matlab
+                                    <li> Python
+                                    <li> Latex
+                                    <li> C++
+                                    <li> html/css
+                                </ul>
+                                </blockquote>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-group">
+                        <div class="accordion-heading accordionize">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionArea" href="#fiveArea">
+                            Hobbies
+                            <span class="font-icon-arrow-simple-down"></span>
+                        </a>
+                        </div>
+                        <div id="fiveArea" class="accordion-body collapse">
+                            <div class="accordion-inner">
+                            
+                            <div class="row">
+                            <!-- Start Profile -->
+                           <div class="span4 profile">
+                                <div class="image-wrap">
+                                    <div class="hover-wrap">
+                                        <span class="overlay-img"></span>
+                                        <span class="overlay-text-thumb">Biking</span>
+                                    </div>
+                                    <img src="_include/img/hobbies/hobbie-01.jpg" alt="Cycling">
+                                </div>
+                            </div>
+                            <!-- End Profile -->
+
+                            <!-- Start Profile -->
+                           <div class="span4 profile">
+                                <div class="image-wrap">
+                                    <div class="hover-wrap">
+                                        <span class="overlay-img"></span>
+                                        <span class="overlay-text-thumb">Skiing</span>
+                                    </div>
+                                    <img src="_include/img/hobbies/hobbie-02.jpg" alt="Cycling">
+                                </div>
+                            </div>
+                            <!-- End Profile -->         
+
+                            <!-- Start Profile -->
+                           <div class="span4 profile">
+                                <div class="image-wrap">
+                                    <div class="hover-wrap">
+                                        <span class="overlay-img"></span>
+                                        <span class="overlay-text-thumb">Metal Fabrication</span>
+                                    </div>
+                                    <img src="_include/img/hobbies/hobbie-03.jpg" alt="Cycling">
+                                </div>
+                            </div>
+                            <!-- End Profile -->                                               
+                        </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- End Accordion -->
+                <div></div>
+                <p> <a href="https://drive.google.com/file/d/0Bw_0nBNLtZbOR1BWallOUmNwQmc/edit?usp=sharing"><span class="font-icon-download_2"></span></a>  &nbsp <a href="https://drive.google.com/file/d/0Bw_0nBNLtZbOR1BWallOUmNwQmc/edit?usp=sharing" target="_blank">PDF Resume</a>  </p>
+                </br>
+                </div>
+
+
+        </div>
+    </div>
+    <!-- End Title Page -->
+    
+    <!-- People -->
+<!--     <div class="row">
+ -->    	
+        <!-- Start Profile -->
+<!--     	<div class="span4 profile">
+        	<div class="image-wrap">
+                <div class="hover-wrap">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-text-thumb">CTO/Founder</span>
+                </div>
+                <img src="_include/img/profile/profile-01.jpg" alt="John Doe">
+            </div>
+            <h3 class="profile-name">John Doe</h3>
+            <p class="profile-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat <a href="#">hendrerit dictum</a>. 
+            Praesent porta, purus eget sagittis imperdiet, nulla mi ullamcorper metus, id hendrerit metus diam vitae est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+            	
+            <div class="social">
+            	<ul class="social-icons">
+                	<li><a href="#"><i class="font-icon-social-twitter"></i></a></li>
+                    <li><a href="#"><i class="font-icon-social-dribbble"></i></a></li>
+                    <li><a href="#"><i class="font-icon-social-facebook"></i></a></li>
+                </ul>
+            </div>
+        </div> -->
+        <!-- End Profile -->
+        
+        <!-- Start Profile -->
+<!--     	<div class="span4 profile">
+        	<div class="image-wrap">
+                <div class="hover-wrap">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-text-thumb">Creative Director</span>
+                </div>
+                <img src="_include/img/profile/profile-02.jpg" alt="Jane Helf">
+            </div>
+            <h3 class="profile-name">Jane Helf</h3>
+            <p class="profile-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat <a href="#">hendrerit dictum</a>. 
+            Praesent porta, purus eget sagittis imperdiet, nulla mi ullamcorper metus, id hendrerit metus diam vitae est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+            	
+            <div class="social">
+            	<ul class="social-icons">
+                	<li><a href="#"><i class="font-icon-social-twitter"></i></a></li>
+                    <li><a href="#"><i class="font-icon-social-email"></i></a></li>
+                </ul>
+            </div>
+        </div> -->
+        <!-- End Profile -->
+        
+        <!-- Start Profile -->
+<!--     	<div class="span4 profile">
+        	<div class="image-wrap">
+                <div class="hover-wrap">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-text-thumb">Lead Designer</span>
+                </div>
+                <img src="_include/img/profile/profile-03.jpg" alt="Joshua Insanus">
+            </div>
+            <h3 class="profile-name">Joshua Insanus</h3>
+            <p class="profile-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat <a href="#">hendrerit dictum</a>. 
+            Praesent porta, purus eget sagittis imperdiet, nulla mi ullamcorper metus, id hendrerit metus diam vitae est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+            	
+            <div class="social">
+            	<ul class="social-icons">
+                	<li><a href="#"><i class="font-icon-social-twitter"></i></a></li>
+                    <li><a href="#"><i class="font-icon-social-linkedin"></i></a></li>
+                    <li><a href="#"><i class="font-icon-social-google-plus"></i></a></li>
+                    <li><a href="#"><i class="font-icon-social-vimeo"></i></a></li>
+                </ul>
+            </div>
+        </div> -->
+        <!-- End Profile -->
+        
+    </div>
+    <!-- End People -->
+</div>
+</div>
+<!-- End About Section -->
+
+
+<!-- Our Work Section -->
+<div id="work" class="page-alternate">
+    <div class="container">
+        <!-- Title Page -->
+        <div class="row">
+            <div class="span12">
+                <div class="title-page">
+                    <h2 class="title">My Work</h2>
+                    <h3 class="title-description">Project Portfolio</h3>
+                </div>
+            </div>
+        </div>
+        <!-- End Title Page -->
+        
+        <!-- Portfolio Projects -->
+        <div class="row">
+            <div class="span3">
+                <!-- Filter -->
+                <nav id="options" class="work-nav">
+                    <ul id="filters" class="option-set" data-option-key="filter">
+                        <li class="type-work">Type of Work</li>
+                        <li><a href="#filter" data-option-value="*" class="selected">All Projects</a></li>
+                        <li><a href="#filter" data-option-value=".eng">Engineering</a></li>
+                        <li><a href="#filter" data-option-value=".arch">Architecture</a></li>
+                        <li><a href="#filter" data-option-value=".cons">Construction</a></li>
+                    </ul>
+                </nav>
+                <!-- End Filter -->
+            </div>
+            
+            <div class="span9">
+                <div class="row">
+                    <section id="projects">
+                        <ul id="thumbs">
+                        
+                            <!-- Item Project and Filter Name -->
+                            <li class="item-thumbs span3 eng">
+                                <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Rocket Press" href="_include/img/work/full/rocket.jpg">
+                                    <span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/rocket.jpg" alt="Aeropress inspired coffee maker machined from Aluminum and Stainless steel.  Designed in Solidworks and machined with by a combination of hand control and CNC.">
+                            </li>
+                            <!-- End Item Project -->
+                            
+                            <!-- Item Project and Filter Name -->
+                            <li class="item-thumbs span3 cons">
+                                <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Crecent Apartments, Milipitas, CA" href="_include/img/work/full/crescent.jpg">
+                                    <span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/crescent.jpg" alt="Worked as the Project Engineer.  In these photos show how the Post-Tension structural system is interpreted from 2D plans.">
+                            </li>
+                            <!-- End Item Project -->
+                            
+                            <!-- Item Project and Filter Name -->
+                            <li class="item-thumbs span3 arch">
+                                <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Entry, Path, & Goal" href="_include/img/work/full/entry-path-goal.jpg">
+                                    <span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/entry-path-goal.jpg" alt="Architecture model demonstrating three components of space <i>Entry, Path and Goal</i> while utiling limited resources <i>Columns and Linear materials</i>">
+                            </li>
+                            <!-- End Item Project -->
+                            
+                            <!-- Item Project and Filter Name -->
+                            <li class="item-thumbs span3 cons">
+                                <!-- Fancybox Media - Gallery Enabled - Title - Link to Video -->
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Broadway Grand, Oakland, CA" href="_include/img/work/full/broadway.jpg">
+                                    <span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/broadway.jpg" alt="Images showing the erection of ConXtech structural steel system, and the <i>almost</i> final product. Broadway Grand is a mixec-use apartment building in downtown Oakland, CA.">
+                            </li>
+                            <!-- End Item Project -->
+                            
+                            <!-- Item Project and Filter Name -->
+                            <li class="item-thumbs span3 arch">
+                                <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Solidere Technology Development" href="_include/img/work/full/beirut.jpg">
+                                    <span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/beirut.jpg" alt="Land Uuse study for a barren development site in downtown Beirut, Lebanon.  The Tech Park proposal makes up the bulk of my reserach will attending the American University of Beirut.">
+                            </li>
+                            <!-- End Item Project -->
+                            
+                            <!-- Item Project and Filter Name -->
+                            <li class="item-thumbs span3 arch">
+                                <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="1560 Grandview Dr, Oakland" href="_include/img/work/full/grandview.jpg">
+                                    <span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/grandview.jpg" alt="Using Revit Architecture, I took the design of this hillside custom home through the conceptual phase and into working construction drawings.  The home was completed and sold in 2011.">
+                            </li>
+                            <!-- End Item Project -->
+                            
+                            <!-- Item Project and Filter Name -->
+                            <li class="item-thumbs span3 arch">
+                                <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title=" The San Francisco Housing Community" href="_include/img/work/full/sf housing.jpg">
+                                    <span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/sf-housing.jpg" alt="Architecture Project">
+                            </li>
+                            <!-- End Item Project -->
+
+                            <!-- Item Project and Filter Name -->
+                            <li class="item-thumbs span3 arch">
+                                <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="500 Oakshire Dr, Alamo" href="_include/img/work/full/oakshire_back.jpg">
+                                    <span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/oakshire_back.jpg" alt="Using Revit Architecture, I took the design of this hillside custom home through the conceptual phase and into working construction drawings.  The home is finishing construction and will be placed on the market this Fall 2014.">
+                            </li>
+                            <!-- End Item Project -->
+                            
+
+                        </ul>
+                    </section>
+                    
+                </div>
+            </div>
+        </div>
+        <!-- End Portfolio Projects -->
+    </div>
+</div>
+<!-- End Our Work Section -->
+
+
+<!-- Contact Section -->
+<div id="contact" class="page">
+<div class="container">
+    <!-- Title Page -->
+    <div class="row">
+        <div class="span12">
+            <div class="title-page">
+                <h2 class="title">Get in Touch</h2>
+<!--                 <h3 class="title-description">We’re currently accepting new client projects. We look forward to serving you.</h3>
+ -->            </div>
+        </div>
+    </div>
+    <!-- End Title Page -->
+    
+    <!-- Contact Form -->
+<!--     <div class="row">
+    	<div class="span9">
+        
+        	<form id="contact-form" class="contact-form" action="#">
+            	<p class="contact-name">
+            		<input id="contact_name" type="text" placeholder="Full Name" value="" name="name" />
+                </p>
+                <p class="contact-email">
+                	<input id="contact_email" type="text" placeholder="Email Address" value="" name="email" />
+                </p>
+                <p class="contact-message">
+                	<textarea id="contact_message" placeholder="Your Message" name="message" rows="15" cols="40"></textarea>
+                </p>
+                <p class="contact-submit">
+                	<a id="contact-submit" class="submit" href="#">Send Your Email</a>
+                </p>
+                
+                <div id="response">
+                
+                </div>
+            </form>
+         
+        </div> -->
+        
+        <div class="row">
+        	<div class="contact-details">
+        		<h3>Contact Details</h3>
+                <ul>
+                    <li><a href="mailto:calvin@patmont.com">calvin@patmont.com</a></li>
+                    <li>(925) 330-413</li>
+<!--                     <li>
+                        Brushed Studio
+                        <br>
+                        5240 Vanish Island. 105
+                        <br>
+                        Unknow
+                    </li> -->
+                </ul>
+            </div>
+
+        </div>
+    
+
+
+    </div>
+    <!-- End Contact Form -->
+</div>
+</div>
+<!-- End Contact Section -->
+
+<!-- Twitter Feed -->
+<!-- <div id="twitter-feed" class="page-alternate">
+	<div class="container">
+    	<div class="row">
+            <div class="span12">
+                <div class="follow">
+                    <a href="https://twitter.com/Bluxart" title="Follow Me on Twitter" target="_blank"><i class="font-icon-social-twitter"></i></a>
+                </div>
+                    
+                <div id="ticker" class="query"> 
+                </div>
+            </div>
+        </div>
+    </div>
+</div> -->
+<!-- End Twitter Feed -->
+
+<!-- Socialize -->
+<div id="social-area" class="page">
+	<div class="container">
+    	<div class="row">
+            <div class="span12">
+                <nav id="social">
+                    <ul>
+<!--                         <li><a href="https://twitter.com/Bluxart" title="Follow Me on Twitter" target="_blank"><span class="font-icon-social-twitter"></span></a></li>
+                        <li><a href="http://dribbble.com/Bluxart" title="Follow Me on Dribbble" target="_blank"><span class="font-icon-social-dribbble"></span></a></li>
+                        <li><a href="http://forrst.com/people/Bluxart" title="Follow Me on Forrst" target="_blank"><span class="font-icon-social-forrst"></span></a></li>
+                        <li><a href="http://www.behance.net/alessioatzeni" title="Follow Me on Behance" target="_blank"><span class="font-icon-social-behance"></span></a></li>
+                        <li><a href="https://www.facebook.com/Bluxart" title="Follow Me on Facebook" target="_blank"><span class="font-icon-social-facebook"></span></a></li>
+                        <li><a href="https://plus.google.com/105500420878314068694" title="Follow Me on Google Plus" target="_blank"><span class="font-icon-social-google-plus"></span></a></li> -->
+                        <li> <h3>  LinkedIn</h3> </li>
+                        <li><a href="http://www.linkedin.com/pub/calvin-patmont/2/124/721/" title="Follow Me on LinkedIn" target="_blank"><span class="font-icon-social-linkedin"></span></a></li>
+<!--                         <li><a href="http://themeforest.net/user/Bluxart" title="Follow Me on ThemeForest" target="_blank"><span class="font-icon-social-envato"></span></a></li>
+                        <li><a href="http://zerply.com/Bluxart/public" title="Follow Me on Zerply" target="_blank"><span class="font-icon-social-zerply"></span></a></li> -->
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Socialize -->
+
+<!-- Footer -->
+<footer>
+	<p class="credits">Modified by Calvin Patmont using <a href="http://themes.alessioatzeni.com/html/brushed/" title="Brushed | Responsive One Page Template">Brushed Template. </a> <!-- by <a href="http://www.alessioatzeni.com/" title="Alessio Atzeni | Web Designer &amp; Front-end Developer">Alessio Atzeni</a></p> -->
+</footer>
+<!-- End Footer -->
+
+<!-- Back To Top -->
+<a id="back-to-top" href="#">
+	<i class="font-icon-arrow-simple-up"></i>
+</a>
+<!-- End Back to Top -->
+
+
+<!-- Js -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> <!-- jQuery Core -->
+<script src="_include/js/bootstrap.min.js"></script> <!-- Bootstrap -->
+<script src="_include/js/supersized.3.2.7.min.js"></script> <!-- Slider -->
+<script src="_include/js/waypoints.js"></script> <!-- WayPoints -->
+<script src="_include/js/waypoints-sticky.js"></script> <!-- Waypoints for Header -->
+<script src="_include/js/jquery.isotope.js"></script> <!-- Isotope Filter -->
+<script src="_include/js/jquery.fancybox.pack.js"></script> <!-- Fancybox -->
+<script src="_include/js/jquery.fancybox-media.js"></script> <!-- Fancybox for Media -->
+<script src="_include/js/jquery.tweet.js"></script> <!-- Tweet -->
+<script src="_include/js/plugins.js"></script> <!-- Contains: jPreloader, jQuery Easing, jQuery ScrollTo, jQuery One Page Navi -->
+<script src="_include/js/main.js"></script> <!-- Default JS -->
+<!-- End Js -->
+
 </body>
 </html>
